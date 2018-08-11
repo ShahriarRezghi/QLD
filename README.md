@@ -19,3 +19,8 @@ This project is published under GPL v3.0 license. See the [license file](LICENSE
 
 # Contributing
 If there are any issues or bugs you can report them on the issues page and start the project if you like it.
+
+# Screenshots
+You can see some screenshots here
+![screenshot1](Screenshots/screenshot1.png)
+![screenshot2](Screenshots/screenshot7.png)
