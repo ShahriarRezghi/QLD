@@ -1,7 +1,6 @@
 # QLD
-A graphical tool to make the deploying of Qt quick applications on linux platform faster.
 ![Icon](icon.png)
-
+A graphical tool to make the deploying of Qt quick applications on linux platform faster.
 
 # Running the project
 You can download and run the [latest release]() on your linux system, or if you want to compile the project from source you can see the Building from Source section.
