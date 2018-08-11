@@ -15,7 +15,7 @@ $ make
 ```
 
 # License
-This project is published under GPL v3.0 license. See the [license file](LICENSE.md) for more details.
+This project is published under GPL v3.0 license. See the [license file](LICENSE) for more details.
 
 # Contributing
 If there are any issues or bugs you can report them on the issues page and start the project if you like it.
