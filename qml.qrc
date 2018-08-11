@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qtquickcontrols2.conf</file>
+        <file>QML/main.qml</file>
+        <file>QML/PathChooser.qml</file>
+        <file>QML/ResultPage.qml</file>
+        <file>QML/TopBar.qml</file>
+        <file>QML/InfoDialog.qml</file>
+        <file>QML/AboutDialog.qml</file>
+        <file>QML/ApplicationHeader.qml</file>
+        <file>QML/SettingsDialog.qml</file>
+        <file>QML/PathSelectionPage.qml</file>
+        <file>QML/PreparationPage.qml</file>
+        <file>QML/CompilingPage.qml</file>
+    </qresource>
+</RCC>
