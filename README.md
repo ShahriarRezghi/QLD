@@ -1,5 +1,6 @@
 # QLD
 ![Icon](icon.png)
+
 A graphical tool to make the deploying of Qt quick applications on linux platform faster.
 
 # Running the project
@@ -20,6 +21,8 @@ This project is published under GPL v3.0 license. See the [license file](LICENSE
 If there are any issues or bugs you can report them on the issues page and start the project if you like it.
 
 # Screenshots
-You can see some screenshots here
+You can see some screenshots here. If you want to see more screenshots see the [Screenshots folder](https://github.com/ShahriarSS/QLD/tree/master/Screenshots)
+
 ![screenshot1](Screenshots/screenshot1.png)
+
 ![screenshot2](Screenshots/screenshot7.png)
