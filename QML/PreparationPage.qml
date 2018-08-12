@@ -120,28 +120,30 @@ Page {
 			bottomPadding: 6
 		}
 
-		CheckBox {
-			id: comperssBox
-			Layout.fillWidth: true
-			text: "Compress Output Directory"
+		RowLayout {
+			Layout.fillHeight: false
 
-			onCheckedChanged: MainManager.compressOutput = checked
+			CheckBox {
+				id: comperssBox
+				Layout.fillWidth: true
+				text: "Compress Output Directory"
 
+				onCheckedChanged: MainManager.compressOutput = checked
 
-			topPadding: 6
-			bottomPadding: 6
-		}
+				topPadding: 6
+				bottomPadding: 6
+			}
 
-		Button {
-			text: "Start"
-			font.bold: true
-			flat: true
-			highlighted: true
-			Layout.alignment: Qt.AlignRight
+			Button {
+				text: "Start"
+				font.bold: true
+				flat: true
+				highlighted: true
 
-			onClicked: {
-				CppManager.cppLibraries = cpplibs
-				MainManager.safeStart()
+				onClicked: {
+					CppManager.cppLibraries = cpplibs
+					MainManager.safeStart()
+				}
 			}
 		}
 	}
