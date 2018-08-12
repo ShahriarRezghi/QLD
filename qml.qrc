@@ -12,5 +12,6 @@
         <file>QML/PathSelectionPage.qml</file>
         <file>QML/PreparationPage.qml</file>
         <file>QML/CompilingPage.qml</file>
+        <file>Images/icon.png</file>
     </qresource>
 </RCC>
