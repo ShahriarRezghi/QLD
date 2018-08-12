@@ -3,7 +3,7 @@
 
 A graphical tool to make the deploying of Qt quick applications on linux platform faster.
 
-# Running the project
+# Running the Project
 You can download and run the [latest release](https://github.com/ShahriarSS/QLD/releases) on your linux system by extracting the compressed file and running the shell script. Or if you want to compile the project from source you can see the Building from Source section.
 
 # Building from Source
@@ -15,7 +15,7 @@ $ make
 ```
 
 # Usage
-The program's user interface is easy to understand and use but if you have trouble using it you can see the [usage documentation](../../wiki). The pages if the program are explained there.
+The program's user interface is easy to understand and use but if you have trouble using it you can see the [usage documentation](../../wiki). The pages of the program are explained there.
 
 # License
 This project is published under GPL v3.0 license. See the [license file](LICENSE) for more details.
