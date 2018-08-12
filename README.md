@@ -15,7 +15,7 @@ $ make
 ```
 
 # Usage
-The program's user interface is easy to understand and use but if you have trouble using it you can see the [usage documentation](../../wiki).
+The program's user interface is easy to understand and use but if you have trouble using it you can see the [usage documentation](../../wiki). The pages if the program are explained there.
 
 # License
 This project is published under GPL v3.0 license. See the [license file](LICENSE) for more details.
