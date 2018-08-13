@@ -24,7 +24,7 @@ This project is published under GPL v3.0 license. See the [license file](LICENSE
 If there are any issues or bugs you can report them on the [issues page](https://github.com/ShahriarSS/QLD/issues) and star the project if you like it.
 
 # Screenshots
-You can see some screenshots here. If you want to see more screenshots see the [Screenshots folder](https://github.com/ShahriarSS/QLD/tree/master/Screenshots)
+You can see some screenshots here. If you want to see more screenshots see the [screenshots directory](https://github.com/ShahriarSS/QLD/tree/master/Screenshots)
 
 ![screenshot1](Screenshots/screenshot1.png)
 
