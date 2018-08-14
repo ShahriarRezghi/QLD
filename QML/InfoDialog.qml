@@ -35,19 +35,19 @@ Popup {
 	function openPopup(i) {
 		if (i === 0) {
 			title = "Qt Build Directory"
-			content = "This is the directory that contains a build of the Qt library. in this directory there are some directories like bin and lib and qml and the bin directory contains qmake executable";
+			content = "This is the directory that contains a build of the Qt library. in this directory there are some directories like bin and lib and qml and the bin directory contains qmake executable.\nexample: /home/shahriar/Qt5.11.1/5.11.1/gcc_64";
 		}
 		else if (i === 1) {
 			title = "Executable File Path"
-			content = "This is the path of the project's executable file"
+			content = "This is the path of the project's executable file.\nexample: /home/shahriar/QtProjects/build-QLD-Desktop_Qt_5_11_1_GCC_64bit-Release/QLD"
 		}
 		else if (i === 2) {
 			title = "Project Directory"
-			content = "This is the directory that contains the project files and the .pro file of the project"
+			content = "This is the directory that contains the project files and the .pro file of the project.\nexample: /home/shahriar/QtProjects/QLD"
 		}
 		else if (i === 3) {
 			title = "Final Output Directory"
-			content = "This is the directory that you want the output libraries and executables and qml modules and the script file to be placed."
+			content = "This is the directory that you want the output libraries and executables and qml modules and the script file to be placed.\nexample: /home/shahriar/QLD-Release"
 		}
 
 		open()
