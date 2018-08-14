@@ -24,9 +24,6 @@ ProjectCompiler::ProjectCompiler(QObject *parent) : BaseClass(parent)
 	connect(&m_process, &QProcess::readyRead, this,
 			&ProjectCompiler::readOutput);
 
-	connect(&m_process, &QProcess::errorOccurred, this,
-			&ProjectCompiler::handleError);
-
 	connect(&m_process,
 			QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), this,
 			&ProjectCompiler::compileFinished);
@@ -50,11 +47,6 @@ void ProjectCompiler::compileFinished(int exitCode)
 	}
 	else if (m_state == MakeState)
 		setState(exitCode == 0 ? FinishedState : FailedState);
-}
-
-void ProjectCompiler::handleError(QProcess::ProcessError E)
-{
-	qDebug() << m_process.errorString();
 }
 
 void ProjectCompiler::compile()

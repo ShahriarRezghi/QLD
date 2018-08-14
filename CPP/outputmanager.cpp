@@ -128,7 +128,7 @@ void OutputManager::createRunFile()
 		"export QML2_IMPORT_PATH=\"$wd/qml\"\n"
 		"export QT_PLUGIN_PATH=\"$wd/plugins\"\n"
 		"export QT_QPA_PLATFORM_PLUGIN_PATH=\"$wd/plugins/platforms\"\n"
-		"\"$wd\"/bin/%1";
+		"\"$wd\"/bin/%1 \"$@\"";
 
 	content = content.arg(QFileInfo(m_executablepath).completeBaseName());
 

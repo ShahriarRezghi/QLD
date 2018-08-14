@@ -47,7 +47,6 @@ class ProjectCompiler : public BaseClass
 private slots:
 	void readOutput();
 	void compileFinished(int exitCode);
-	void handleError(QProcess::ProcessError E);
 
 public:
 	explicit ProjectCompiler(QObject *parent = nullptr);
