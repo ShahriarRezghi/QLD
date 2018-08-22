@@ -30,7 +30,7 @@ Popup {
 	y: (parent.height-height)/2
 
 	property string title: "About"
-	property string content: "This is an open-source software written with Qt framework that deploys Qt projects on linux operating systems.\nThis software is written by Shahriar Rezghi (shahriar25.ss@gmail.com)."
+	property string content: "This is an open-source software written with Qt framework that deploys Qt projects on linux operating systems.\n\nThis software is written by Shahriar Rezghi (shahriar25.ss@gmail.com).\n\nCopyright (C) 2018  Shahriar Rezghi\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details."
 
 	contentItem: ColumnLayout {
 		Label {
@@ -43,10 +43,29 @@ Popup {
 			horizontalAlignment: Text.AlignHCenter
 		}
 
-		Label {
-			text: content
-			Layout.fillWidth: true
-			wrapMode: Text.WrapAtWordBoundaryOrAnywhere
+		RowLayout {
+			id: row
+			spacing: 30
+			Layout.leftMargin: 10
+
+			Control {
+				implicitWidth: 100
+				implicitHeight: 100
+
+				contentItem: Image {
+					anchors.fill: parent
+					source: "qrc:/Images/icon.png"
+
+					sourceSize.width: width
+					sourceSize.height: height
+				}
+			}
+
+			Label {
+				text: content
+				Layout.fillWidth: true
+				wrapMode: Text.WrapAtWordBoundaryOrAnywhere
+			}
 		}
 
 		Button {
